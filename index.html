@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Haven - Premium Gift Shop</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <img src="images/logo.png" alt="Gift Haven" height="40" class="me-2">
+                <span class="fw-bold text-primary">Gift Haven</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#login" data-bs-toggle="modal" data-bs-target="#loginModal">
+                            <i class="fas fa-user me-1"></i>Login
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative" href="#cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                3
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="row align-items-center min-vh-100">
+                    <div class="col-lg-6">
+                        <h1 class="display-4 fw-bold text-white mb-4">
+                            The Perfect Gift for Every Occasion
+                        </h1>
+                        <p class="lead text-white mb-4">
+                            Discover our curated collection of premium gifts, from beautiful flowers to delicious cakes and personalized items.
+                        </p>
+                        <div class="d-flex gap-3">
+                            <a href="#products" class="btn btn-primary btn-lg">
+                                Shop Now <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                            <a href="#about" class="btn btn-outline-light btn-lg">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="py-5 premium-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold text-dark">Featured Categories</h2>
+                    <p class="lead text-muted">Explore our most popular gift categories</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card category-card h-100 border-0 shadow-sm">
+                        <img src="images/cake.webp" class="card-img-top" alt="Cakes">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Delicious Cakes</h5>
+                            <p class="card-text text-muted">Freshly baked cakes for every celebration</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card h-100 border-0 shadow-sm">
+                        <img src="images/flowersss.webp" class="card-img-top" alt="Flowers">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Beautiful Flowers</h5>
+                            <p class="card-text text-muted">Fresh flowers to brighten any day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card h-100 border-0 shadow-sm">
+                        <img src="images/teddy.webp" class="card-img-top" alt="Gifts">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Special Gifts</h5>
+                            <p class="card-text text-muted">Unique and personalized gift items</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold text-dark">Our Products</h2>
+                    <p class="lead text-muted">Handpicked gifts for your loved ones</p>
+                </div>
+            </div>
+            
+            <!-- Anniversary Collection -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3 class="h4 fw-bold text-center mb-4">Anniversary Collection</h3>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <img src="images/For Couple.webp" class="card-img-top" alt="For Couple">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">For Couple</h5>
+                            <p class="card-text text-muted">Perfect gifts for couples</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary mb-0">₹1,999</span>
+                                <button class="btn btn-primary btn-sm">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <img src="images/flowersss.webp" class="card-img-top" alt="Flowers">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Flowers</h5>
+                            <p class="card-text text-muted">Beautiful flower arrangements</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary mb-0">₹1,699</span>
+                                <button class="btn btn-primary btn-sm">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <img src="images/midnight.webp" class="card-img-top" alt="Midnight">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Midnight</h5>
+                            <p class="card-text text-muted">Elegant midnight collection</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary mb-0">₹2,399</span>
+                                <button class="btn btn-primary btn-sm">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <img src="images/cakesss.webp" class="card-img-top" alt="Cakes">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Cakes</h5>
+                            <p class="card-text text-muted">Delicious celebration cakes</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary mb-0">₹1,399</span>
+                                <button class="btn btn-primary btn-sm">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Latest Products -->
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="h4 fw-bold text-center mb-4">Latest Products</h3>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <img src="images/cake and choko.webp" class="card-img-top" alt="Cake And Choko">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Cake & Chocolate</h5>
+                            <p class="card-text text-muted">Sweet combination package</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary mb-0">₹2,799</span>
+                                <button class="btn btn-primary btn-sm">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <img src="images/flower choko.webp" class="card-img-top" alt="Flower And Choko">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Flower & Chocolate</h5>
+                            <p class="card-text text-muted">Romantic gift combination</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary mb-0">₹3,199</span>
+                                <button class="btn btn-primary btn-sm">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <img src="images/kaju.webp" class="card-img-top" alt="Kaju">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Kaju Collection</h5>
+                            <p class="card-text text-muted">Premium dry fruits gift</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary mb-0">₹1,999</span>
+                                
+                                <button class="btn btn-primary btn-sm">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <img src="images/teddy.webp" class="card-img-top" alt="Teddy">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Teddy Bear</h5>
+                            <p class="card-text text-muted">Cute and cuddly teddy</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary mb-0">₹1,699</span>
+                                <button class="btn btn-primary btn-sm">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 premium-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <img src="images/w1.jpg" class="img-fluid rounded shadow" alt="About Us">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-6 fw-bold text-dark mb-4">About Gift Haven</h2>
+                    <p class="lead text-muted mb-4">
+                        We believe that gifts are the best means to convey love, wishes, and congratulatory messages to your loved ones. They add fun and fervor to every occasion while making your loved ones beam with a smile.
+                    </p>
+                    <p class="text-muted mb-4">
+                        Choose from our extensive collection of yummy cakes, splendid flowers, assorted chocolates, and personalized gifts to offer your friends and family members on important occasions.
+                    </p>
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                <span>Premium Quality</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                <span>Fast Delivery</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                <span>Secure Payment</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                <span>24/7 Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold text-dark">Get In Touch</h2>
+                    <p class="lead text-muted">We'd love to hear from you</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-5">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <h5 class="fw-bold mb-3">Contact Information</h5>
+                                    <div class="d-flex mb-3">
+                                        <i class="fas fa-map-marker-alt text-primary me-3 mt-1"></i>
+                                        <div>
+                                            <h6 class="mb-1">Address</h6>
+                                            <p class="text-muted mb-0">123 Gift Street, Mumbai, Maharashtra, India</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        <i class="fas fa-phone text-primary me-3 mt-1"></i>
+                                        <div>
+                                            <h6 class="mb-1">Phone</h6>
+                                            <p class="text-muted mb-0">+91 98765 43210</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        <i class="fas fa-envelope text-primary me-3 mt-1"></i>
+                                        <div>
+                                            <h6 class="mb-1">Email</h6>
+                                            <p class="text-muted mb-0">info@gifthaven.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="fw-bold mb-3">Send us a message</h5>
+                                    <form>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" placeholder="Your Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control" placeholder="Your Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Send Message</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3">Gift Haven</h5>
+                    <p class="text-muted">
+                        Making every occasion special with our curated collection of premium gifts. From flowers to cakes, we have everything you need to express your love and care.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="#products" class="text-muted text-decoration-none">Products</a></li>
+                        <li><a href="#about" class="text-muted text-decoration-none">About</a></li>
+                        <li><a href="#contact" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="fw-bold mb-3">Categories</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none">Cakes</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Flowers</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Chocolates</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Gifts</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6 class="fw-bold mb-3">Newsletter</h6>
+                    <p class="text-muted mb-3">Subscribe to get updates on new products and offers</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">&copy; 2024 Gift Haven. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted mb-0">Made with ❤️ for your special moments</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">Welcome Back</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-muted mb-4">Sign in to your account to continue shopping</p>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Email address</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter your password">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">
+                                    Remember me
+                                </label>
+                            </div>
+                            <a href="#" class="text-decoration-none">Forgot password?</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 mb-3">Sign In</button>
+                        <p class="text-center text-muted mb-0">
+                            Don't have an account? <a href="#" class="text-decoration-none">Sign up</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html> 
