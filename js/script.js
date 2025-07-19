@@ -1,4 +1,4 @@
-// Gift Haven - Custom JavaScript
+// Online Gift Shop - Custom JavaScript
 
 document.addEventListener('DOMContentLoaded', function() {
     
@@ -362,7 +362,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Console welcome message
-    console.log('%c🎁 Welcome to Gift Haven! 🎁', 'color: #ff6b6b; font-size: 20px; font-weight: bold;');
+    console.log('%c🎁 Welcome to Online Gift Shop! 🎁', 'color: #ff6b6b; font-size: 20px; font-weight: bold;');
     console.log('%cMade with ❤️ for your special moments', 'color: #666; font-size: 14px;');
     
 }); 

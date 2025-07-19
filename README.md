@@ -1,4 +1,4 @@
-# 🎁 Gift Haven - Premium Gift Shop
+# 🎁 Online Gift Shop - Premium Gift Shop
 
 A modern, responsive gift shop website built with Bootstrap 5, featuring a professional design and smooth user experience.
 
@@ -45,4 +45,4 @@ gift-haven/
 
 ---
 
-*Gift Haven - Where every gift tells a story*
+*Online Gift Shop - Where every gift tells a story*
