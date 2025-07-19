@@ -76,7 +76,7 @@ html {
     width: 100%;
 }
 
-/* Hero Section */
+/* Hero Section  */
 .hero-section {
     background: var(--gradient-primary);
     background-image: url('../images/banner.webp');

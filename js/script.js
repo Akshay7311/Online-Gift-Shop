@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Form Validation
+    // Form Validation 
     function initFormValidation() {
         const forms = document.querySelectorAll('form');
         
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     submitBtn.innerHTML = originalText;
                     submitBtn.disabled = false;
                     
-                    // Close modal if in modal
+                    // Close modal if in the modal
                     const modal = this.closest('.modal');
                     if (modal) {
                         const bsModal = bootstrap.Modal.getInstance(modal);
