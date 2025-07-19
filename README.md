@@ -1,18 +1,9 @@
 # 🎁 Online Gift Shop - Premium Gift Shop
 
-A modern, responsive gift shop website built with Bootstrap 5, featuring a professional design and smooth user experience.
 
-## ✨ Features
+A modern, responsive gift shop website built with Bootstrap 5, featuring a professional design and smooth user experience.</br>
+Link: [OnlineGiftShop](https://onlinegiftshop.netlify.app/)
 
-- **Modern Design**: Clean, professional Bootstrap 5 layout
-- **Fully Responsive**: Works perfectly on all devices (mobile, tablet, desktop)
-- **Interactive Elements**: Smooth animations and hover effects
-- **Shopping Cart**: Functional cart with real-time updates
-- **Contact Form**: Integrated contact form with validation
-- **Login Modal**: Professional login interface
-- **Newsletter Subscription**: Email subscription functionality
-- **Social Media Integration**: Social media links and sharing
-- **SEO Optimized**: Proper meta tags and semantic HTML
 
 ## 🚀 Technologies Used
 
