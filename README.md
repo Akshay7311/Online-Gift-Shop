@@ -2,7 +2,7 @@
 
 
 A modern, responsive gift shop website built with Bootstrap 5, featuring a professional design and smooth user experience.</br>
-Link: [OnlineGiftShop](https://onlinegiftshop.netlify.app/)
+Link: [OnlineGiftShop](https://onlinegiftshop.netlify.app/)</br>
 Alt Link : [OnlineGiftShop](https://akshay7311.github.io/Online-Gift-Shop/)
 
 ## 🚀 Technologies Used
